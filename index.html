@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>2Florista</title>
+		<!--bootstrap style -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--original style-->
+		<link rel="stylesheet" href="style.css">
+		<!--add new font-->
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+		<!--JavaScript-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</head>
+
+
+	<body data-spy="scroll" data-target="#navbar-example">
+<!--NAVIGATION BAR
+***************************************************************** -->
+	<div class="navbar-fixed-top" >	
+		<a href="#main"><img class = "logo" src="img/logo.png"></a>
+		<a id="menu"><img src="img/menu.png"></a>
+		<nav id="drawer" class="nav">
+			<ul class="nav__list">
+				<li><a class="scrollable nav__item bordo" href="#main" >Главная</a></li>
+				<li><a class="scrollable nav__item bordo" href="#about-us">О нас</a></li>
+				<li><a class="scrollable nav__item bordo" href="#portfolio">Портфолио</a></li>
+				<li><a class="scrollable nav__item bordo" href="#services">Мастер-класс</a></li>
+				<li><a class="scrollable nav__item bordo" href="#review">Отзывы</a></li>
+				<li><a class="scrollable nav__item bordo" href="#contacts">Контакты</a></li>
+			</ul>
+		</nav>
+	</div>
+<!-- Header -->
+	<div class="header" id="main">
+		<div class="overImg text-center">
+			<h1 class="white">2Florista</h1>
+			<h2 class="white">Студия цветочного дизайна</h2>
+			<a href = "#portfolio" class="btn" >Подробнее</a>	
+		</div>			
+		<img src="img/background/1.jpg">
+	</div>
+
+
+<!--ABOUT US
+***************************************************************** -->
+		<div  id="about-us">
+			<h3 class="text-center">О нас</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 text-block big-element">
+						<p class="grey"><strong>2Florista </strong>- это декораторы, художники, флористы. <br>
+						Команда, которая уже нескроткр лет профессионально занимается декором мероприятий. <br> 
+						Все подвластно нам: свадьбы, юбилеи, корпоративы, сезонные оформления, букеты и композиции, декорации и инсталяции, словом все то, что делает Ваш праздник запоминающимся, а нашу работу интересной. 
+						<br><br>Самые смелые ваши мечты и идеи - наша работа!</p>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 text-block">
+						<div class="container hov_mode">
+							<img class = "zoomable about-wedding" src="img/our-team/monitorSmall.jpg" srcset="img/our-team/monitorSmall.jpg 1000w, img/our-team/monitor.jpg 2000w" alt="Фтография свадебной церемонии" id='7'>
+							<div class="overlay aboutVideo">
+								<div class="text"><img src="img/portfolio/play.png" class="imgIcon">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 text-block small-element">
+						<p class="grey"><strong>2Florista </strong>- это декораторы, художники, флористы. <br>
+						Команда, которая уже несколько лет профессионально занимается декором мероприятий. <br> 
+						Все подвластно нам: свадьбы, юбилеи, корпоративы, сезонные оформления, букеты и композиции, декорации и инсталяции, словом все то, что делает Ваш праздник запоминающимся, а нашу работу интересной. 
+						<br><br>Самые смелые ваши мечты и идеи - наша работа!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!--TEAM
+***************************************************************** -->
+
+	<div id="team">
+		<div class="container">
+			<div class="row text-center">
+				<h3> Наша команда </h3>
+				<div class="text-block">
+					<div class="col-xs-6 col-sm-6 col-md-6">
+						<img src="img/our-team/olga.png" alt="Фтография Алёнкиной Ольги">
+						<h4 class="grey">Алёнкина Ольга <br> флорист-дизайнер</h4>
+						<p class="grey">Выпускник Международной Школы<br>Флористов Дизайнеров «Николь».<br>Участник и призёр флористических  конкурсов и <br>фестивалей.</p>	
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6">
+						<img src="img/our-team/irina.jpg" alt="Фтография Федяевой Ирины">
+						<h4 class="grey">Федяева Ирина <br> флорист-дизайнер</h4>
+						<p class="grey">Выпускница Международной Школы<br>Флористов Дизайнеров «Николь».<br>Практикующий флорист с многолетним опытом<br>по оформлению крупных мероприятий,<br>банкетов, конференций, свадеб.</p>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--PORTFOLIO
+***************************************************************** -->
+	<div id="portfolio">
+		<h3 class="text-center"> Портфолио </h3>
+		<div class="container">
+			<div class="row"> 
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="container hov_mode">
+						<img class = "zoomable" src="img/portfolio/1Small.jpg" srcset="img/portfolio/1Small.jpg 1000w, img/portfolio/1.jpg 2000w" alt="Букет невесты" id='1'>
+						<div class="overlay portfolioIcon">	
+							<div class="text text-center">
+								<img src="img/portfolio/1-1.png" class="imgIcon">
+								<h6 class="white">БУКЕТ ДЛЯ НЕВЕСТЫ</h6>
+								<p class="white">Главным аксессуаром  образа невесты является букет. Разнообразие форм и цветовых палитр бесконечно, как и наша фантазия при создании букета. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="container hov_mode">
+						<img class = "zoomable" src="img/portfolio/2Small.jpg" srcset="img/portfolio/2Small.jpg 1000w, img/portfolio/2.jpg 2000w" alt="Букет невесты" id='2'>
+						<div class="overlay portfolioIcon">	
+							<div class="text text-center">
+								<img src="img/portfolio/2-1.png" class="imgIcon">
+								<h6 class="white">СВАДЕБНЫЙ ДЕКОР</h6>
+								<p class="white">Стиль, цвет, детали всегда индивидуальны, как и сама пара, мы помогаем выразить это цветами  и сделать для вас день незабываемым! </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6"> 
+					<div class="container hov_mode">
+						<img class = "zoomable" src="img/portfolio/3Small.jpg" srcset="img/portfolio/3Small.jpg 1000w, img/portfolio/3.jpg 2000w" alt="Яркий букет из роз" id='3'>
+						<div class="overlay portfolioIcon">	
+							<div class="text text-center">
+								<img src="img/portfolio/3-1.png" class="imgIcon">
+								<h6 class="white">БУКЕТ ПО СЛУЧАЮ И БЕЗ</h6>
+								<p class="white">Цветы как подарок, цветы как комплимент, цветы как знак внимания-мы знаем как удивить и пусть все будет цветочно!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="container hov_mode">
+						<img class = "zoomable" src="img/portfolio/4Small.jpg" srcset="img/portfolio/4Small.jpg 1000w, img/portfolio/4.jpg 2000w" alt="Арка для бракосочетания" id='4'>
+						<div class="overlay portfolioIcon">	
+							<div class="text text-center">
+								<img src="img/portfolio/4-1.png" class="imgIcon">
+								<h6 class="white">ВЫЕЗДНАЯ РЕГИСТРАЦИЯ</h6>
+								<p class="white">Выездная церемония –это таинство, романтичное и всегда очень трогательное!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="container hov_mode">
+						<img class = "zoomable" src="img/portfolio/5Small.jpg" srcset="img/portfolio/5Small.jpg 1000w, img/portfolio/5.jpg 2000w" alt="Свечи декорированые по-новогоднему" id='5'>
+						<div class="overlay portfolioIcon">	
+							<div class="text text-center">
+								<img src="img/portfolio/5-1.png" class="imgIcon">
+								<h6 class="white">НОВОГОДНИЕ ПОДАРКИ</h6>
+								<p class="white">Новый год-это волшебное время! Мы создаем ароматные подарки с корицей, мандаринами, ветками хвои, хлопком, подарки, которые принесут в каждый дом праздник и уют!</p>
+							</div>
+						</div>				
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="container hov_mode">
+						<img class = "zoomable" src="img/portfolio/6Small.jpg" srcset="img/portfolio/6Small.jpg 1000w, img/portfolio/6.jpg 2000w" alt="Новогдние украшения" id='6'>
+						<div class="overlay portfolioIcon">	
+							<div class="text text-center">
+								<img src="img/portfolio/6-1.png" class="imgIcon">
+								<h6 class="white">НОВОГОДНЕЕ ОФОРМЛЕНИЕ</h6>
+								<p class="white">Новый год для каждого из нас, это особенный праздник с ожиданием чуда, огнями на ёлке, сказкой, которую мы из года в год стараемся создать для вас в уютном декоре.</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--SERVICES
+***************************************************************** -->
+	<div class="pictures text-center" id="services">
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="container hov_mode" id="videoBig">
+					<img class = "zoomable" src="img/master-class-Small.jpg" srcset="img/master-class-Small.jpg 1000w, img/master-class.jpg 2000w" alt="Букет невесты" id='8'>
+					<div class="overlay master-class">
+						<div class="text">
+							<h2 class="white">МАСТЕР-КЛАССЫ</h2>
+							<img src="img/portfolio/play.png" class="imgIcon">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+		
+<!--REVIEW
+***************************************************************** -->
+	<div id="review">
+		<h3 class="text-center"> Отзывы </h3>
+		<div class="container">
+			<div class="row text-center" id="review">
+				<div class="text-block">
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<img src="img/review/kate.jpg" class="img-circle">
+						<h4 class="grey">Екатерина Ленц</h4>
+						<p class="grey">Спаибо огромное Ольге и Ирине за такие красивые композиции, благодаря вашему оформлению было свежо, празднично и очень красиво!!!</p>		
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<img src="img/review/chris.jpg" class="img-circle">
+						<h4 class="grey">Кристина Мельник</h4>
+						<p class="grey">Хочу выразить огромную благодарность Ольге и Ирине за проделанную работу! Букет невесты и оформление зала все было на самом высоком уровне! Были учтены все пожелания! Спасибо за трепетное отношение к нашему мероприятию!!!</p>						
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<img src="img/review/mery.jpg" class="img-circle">
+						<h4 class="grey">Мария Кугушева</h4>
+						<p class="grey">С нашей свадьбы прошло уже три года, но все подруги до сих пор вспоминают мой букетик, спасибо большое Ольге и Ирине за проделанную работу, все было на высшем уровне! Даже композиции со столов гости забрали с собой!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="moreInfo" class="text-center">
+			<p><a href="https://vk.com/topic-16234154_32396158">Читать больше</a></p>
+		</div>	
+	</div>
+
+<!--FOOTER
+***************************************************************** -->
+		<footer id="contacts">
+			<div class="container">
+				<div class="row text-block">					
+					<div class="col-xs-12 col-sm-6 col-md-6 lighter">
+						<div class="formInput">
+							<h4>Отправить заявку</h4>
+							<form id="contact-form" method="post" action="contact.php" role="form">
+								<div class="controls">
+									<div class="messages"></div>
+									<div class="controls">
+		                				<div class="form-group">
+		                    				<input id="form_name" type="text" name="name" class="form-control" placeholder="Имя" required="required" data-error="Введите имя">
+		                    				<div class="help-block with-errors"></div>
+		                				</div>
+		                				<div class="form-group">       
+		                    				<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Телефон" required="required" data-error="Введите номер телефона">
+		                    				<div class="help-block with-errors"></div>
+		                				</div>
+		                				<div class="form-group">                    
+	                    					<textarea id="form_message" name="message" class="form-control" placeholder="Сообщение" rows="2" required="required" data-error="Обязательное поле."></textarea>
+	                    					<div class="help-block with-errors hidden"></div>
+	                					</div>        				
+		               					<input type="submit" class="btn btn-send" value="Отправить">
+		               				</div>
+								</div>
+							</form>
+						</div>
+					</div>			
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<iframe width="450" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcRdPSrQ1tUYRrtRlL9hYGrk&key=AIzaSyAp3kLiOolwf7dWYfjnl3KNlxNmJEGSSCY" allowfullscreen></iframe>
+						<address class='text-center'>
+							Адрес: ул. Краснобогатырская, д.2, г.Москва<br>
+							Телефон:</abbr> + 7 (962) 952-58-58<span class="nocolor">000000000000</span><br>
+							<span class="nocolor">0000000000</span>+ 7 (903) 131-50-91<span class="nocolor">00000000000000</span><br>
+							<span class="nocolor">0000000000 </span><a href="mailto:2florista@mail.ru">2florista@mail.ru</a><span class="nocolor">00000000000000</span> 
+						</address>
+					</div>
+				</div>
+			</div>	
+			<div class="whitish">						
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-2 col-md-3 bigScreen">
+							<a href="#main"><img class="logo pull-right" src="img/logo.png"></a>
+						</div>
+						<div class="col-xs-6 col-sm-3 col-md-3 footerInfo">
+							<p id="brand-name" class="grey">2Florista</p>
+							<p class="grey">Студия цветочного дизайна</p>
+						</div>
+						<div class="col-xs-6 col-sm-2 col-md-2">
+							<p class="grey pull-right">+ 7 (962) 952-58-58 <br>+ 7 (903) 131-50-91<br>
+							<a class="grey" href="mailto:2florista@mail.ru">2florista@mail.ru</a><span class="nocolor">000 </span></p>
+						</div>
+
+						<div class="col-xs-12 col-sm-5 col-md-4">
+							<a href="#main" class="smallScreen"><img class="logo pull-right" src="img/logo.png"></a>
+							<a href="https://www.youtube.com/channel/UCNdjfd0CeiZuyYSYhVqp6kw"><img class ="social" src="img/logo/youtube.svg"></a>
+							<a href="https://vk.com/2florista"><img class ="social" src="img/logo/vk.svg"></a>
+							<a href="https://www.facebook.com/2FloristaOfficial"><img class ="social" src="img/logo/facebook.svg"></a>
+							<a href="https://www.instagram.com/2florista_official/"><img class ="social" src="img/logo/instagram.svg"></a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</footer>
+
+			<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	        <script src="js/validator.js"></script>
+	        <script src="js/contact.js"></script>
+	        <script src="js/js.js"></script>
+	        <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('body');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+    </div>
+	</body>
+</html>

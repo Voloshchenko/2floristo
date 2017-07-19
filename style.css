@@ -1,0 +1,760 @@
+/*font Blogger Sans integrated */
+@font-face {
+    font-family: 'BloggerSans-Light';
+    src: url('fonts/BloggerSans-Light.eot');
+    src: url('fonts/BloggerSans-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BloggerSans-Light.woff') format('woff'),
+         url('fonts/BloggerSans-Light.ttf') format('truetype'),
+         url('fonts/BloggerSans-Light.svg#MyFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BloggerSans-Medium';
+    src: url('fonts/BloggerSans-Medium.eot');
+    src: url('fonts/BloggerSans-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BloggerSans-Medium.woff') format('woff'),
+         url('fonts/BloggerSans-Medium.ttf') format('truetype'),
+         url('fonts/BloggerSans-Medium.svg#MyFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BloggerSans-Bold';
+    src: url('fonts/BloggerSans-Bold.eot');
+    src: url('fonts/BloggerSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BloggerSans-Bold.woff') format('woff'),
+         url('fonts/BloggerSans-Bold.ttf') format('truetype'),
+         url('fonts/BloggerSans-Bold.svg#MyFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  font-family: 'BloggerSans-Medium';
+}
+ .container{
+  padding: 0;
+  width: 70%;
+}
+
+/*General settings */
+
+ul {
+  list-style: none;
+}
+/*font colors*/
+.white {
+	color: white;
+}
+.grey {
+	color: #353434;
+}
+
+.bordo {
+	color: #5e333c;
+}
+/*NAVIGATON BAR
+--------------------------------------------------------*/
+
+#menu {
+  display: none;
+}
+.navbar-fixed-top {
+  background-color: white;
+}
+.logo {
+  height: 5em;
+  padding-left: 10%;
+ }
+nav {
+  float: right;
+}
+.nav li a{
+  text-transform: uppercase;
+  font-family: 'BloggerSans-Medium';
+}
+.nav li a:hover{
+  color: #5e333c;
+  text-decoration: underline;
+  background-color: white;
+}
+.active{
+  text-decoration: underline;
+}
+
+/*MAIN PAGE
+-------------------------------------------------------------*/
+#main{ 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   margin-top: 5em;
+}
+#main img {
+  width: 100%;
+}
+.overImg {
+  position: absolute; 
+  width: 100%;
+  
+}
+.header h1 {
+  padding-top: 7%;
+  font-size: 12vw;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  letter-spacing: 0.4vw;
+}
+
+.header h2 {
+font-family: 'BloggerSans-Light';
+font-size: 2.1vw;
+font-weight: bold;
+padding-bottom: 1.5%;
+letter-spacing: 0.2vw;
+margin-top: 0;
+}
+
+.header .btn {
+  background-color: rgb(095, 043, 056);
+  padding: 0.8% 2.5%;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  border-radius: 10px;
+  color: white;
+}
+
+.header .btn:hover {
+  background: white;
+  color: rgb(095, 043, 056);
+}
+
+/*PARTS REGULATIONS
+-------------------------------------------------------------*/
+#about-us, #team, #portfolio, #services, #review  {
+	padding-bottom: 3%;
+}
+
+h3 {
+	color: rgb(095, 043, 056);
+	font-size: 3vw;
+	padding: 1.8em 0 1.5em 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 1.5vw;
+	padding-top: 2em;
+	font-weight: bold;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+/*ABOUT US PAGE
+-------------------------------------------------------------*/
+#about-us .container {
+  width: 90%;
+}
+#about-us p{
+  font-size: 1vw;
+  margin-left: 30%;
+	padding:  10% 10% 0 0;
+}
+
+#about-us .about-wedding {
+	float: left;
+	width: 30vw;
+}
+
+#about-us .hov_mode {
+  padding-left: 0;
+  margin: 0;
+}
+.aboutVideo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 18vw;
+  width: 30vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(095, 043, 056, 0.1);
+  cursor: pointer;
+}
+.aboutVideo .zoomable {
+  width: 100%;
+}
+#about-us .text {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.big-element {
+ display: inline;
+}
+.small-element {
+  display: none;
+}
+/*TEAM PAGE
+-------------------------------------------------------------*/
+
+#team .container {
+  width: 80%;
+}
+
+#team img {
+	width: 60%;
+}
+
+#team p{
+  font-size: 1vw;
+}
+
+#team h4 {
+  font-size: 1.3vw;
+  padding-top: 1em;
+}
+
+
+/*PORTFOLIO PAGE
+-------------------------------------------------------------*/
+
+#portfolio .col-md-6 .container {
+  width: 100%;
+  padding: 2%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-inner {
+  overflow: hidden;
+ }
+ .portfolioIcon {
+  position: absolute;
+  top: 3%;
+  bottom: 0;
+  left: 2%;
+  right: 2%;
+  height: 94%;
+  width: 96%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(095, 043, 056, 0.61);
+}
+
+.hov_mode:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.text p{
+  font-size: 1vmax;
+}
+
+.text h6{
+  font-size: 2vmax;
+}
+.item .active {
+  background-color: rgba(0,0,0,.82);
+}
+
+.right {
+  top:2em;
+}
+.close{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+
+}
+.close img{
+padding: 3%;
+}
+.carousel-inner>.item>img{
+  max-height: 75vh;
+  max-width: 70vw;
+      bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 10%;
+    margin-top: 10%;
+
+}
+/*MASTER CLASS PAGE
+-------------------------------------------------------------*/
+
+#services {
+  background:url("img/background/2-2.jpg") no-repeat center center;
+  background-size:cover;
+  padding: 5% 15%;
+}
+
+#services .container {
+  width: 100%;
+  margin: 0;
+}
+#services .col-md-12 {
+  padding: 0;
+}
+
+.videoYoutube{
+  width: 100%;
+   bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 10%;
+}
+
+.zoomable {
+	width: 100%;
+}
+
+#services .zoomable {
+	width: 100%;
+}
+
+.imgIcon {
+  width: 40%;
+}
+
+ video {
+	width: 70%;
+	padding-bottom: 4em;
+	object-fit: inherit;
+	padding: 1em 1em;
+}
+
+.master-class{
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(095, 043, 056, 0.61);
+  color: white;
+}
+
+/*REVIEW PAGE
+-------------------------------------------------------------*/
+#review .container {
+  width: 80%;
+}
+.img-circle {
+	width: 75%;
+}
+#review p {
+  font-size: 1vw;
+}
+
+#moreInfo a{
+	color: rgb(095, 043, 056);
+	text-decoration: underline;
+}
+
+#moreInfo {
+	display: inline;
+	text-align: center;
+}
+
+/*FOOTER PAGE
+-------------------------------------------------------------*/
+
+
+#contacts {
+	text-align: center; 
+	background:url("img/background/3.jpg") no-repeat center center;
+	background-size:cover;
+	color: white;
+	font-family: "BloggerSans-Medium";
+	width: 100%;
+	padding-top: 10em ;
+	text-align: left;
+}
+#contacts .container {
+  width: 90%;
+}
+
+.formInput {
+  margin: 3% 15% 3% 15%;
+}
+#contacts h4 {
+	color: white;
+	padding-top: 0;
+}
+
+.lighter{
+	background-color: rgba(148, 139, 134, 0.4);
+	height: 450px;
+	padding-left: 100px;
+}
+
+.form-control {
+  margin-bottom: 7%;
+	width: 100%;
+	border-radius: 10px;
+  background-color: white;
+  color: rgb(095, 043, 056);
+  padding: 1.5em 1em;
+}
+
+.btn-send {
+	padding: 0.3em 2em;
+	font-size: 1.4em;
+	border-radius: 10px;
+	font-family: "BloggerSans-Medium";
+	background-color: rgb(095, 043, 056);
+}
+.btn.disabled {
+  opacity: 1;
+  cursor: pointer;
+}
+.btn-send:hover{
+  text-decoration: none;
+  background-color: white;
+  color: rgb(095, 043, 056);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.col-md-6{
+	padding: 0;
+}
+
+iframe{
+	width: 100%;
+}
+
+address{
+	padding:  4em 0; 
+}
+
+
+address a{
+	color: white;
+}
+
+address a:hover{
+	color: white;
+}
+
+
+.whitish {
+	background-color: rgba(255, 255, 255, 0.79);
+	text-align: left;
+	padding: 2em 5em 1em 5em;
+	font-family: "BloggerSans-Bold";
+}
+
+.whitish .logo {
+	padding-right: 0;
+}
+
+.whitish .footerInfo {
+	padding-left: 0;
+}
+
+#brand-name {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.1em;
+}
+
+.white p {
+	margin-bottom: 0;
+}
+
+
+.header__menu {
+  display: none;
+}
+
+.social {
+	width: 3.5em;
+	padding-right: 1em;
+	padding-top: 1em;
+}
+.smallScreen {
+  display: none;
+}
+
+.nocolor{
+  color: rgba(255, 255, 255, 0);
+  opacity: 0;
+}
+
+.videoYoutube {
+  position: fixed; 
+  z-index: -99; 
+  width: 90%; 
+  height: 80%;
+}
+ 
+
+/*MEDIA PAGE
+-------------------------------------------------------------*/
+@media only screen and (min-width : 992px) {
+  #team {
+    background:url("img/background/2-1.jpg") no-repeat center center;
+    background-size:cover;
+  } 
+  .nav a{
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 1.1vw 1vw 1.2vw 1vw;
+  }
+  nav ul{
+    margin: 0 7vw 0 0;
+  }
+  nav ul li{
+    display: inline; 
+  }
+  nav ul li a {
+    display: inline-block;
+  }
+  nav li{
+    padding: 1.5vw 0 1.1vw 0;
+    margin: 0 0.2vw 0 0.2vw;
+  } 
+}
+@media only screen and (min-width : 1400px) {
+  #contacts .text-block{
+    padding: 0 10em;
+  }
+}
+@media only screen and (min-width : 1800px) {
+iframe {
+  width: 100%;
+  height: 800px;
+}
+
+.lighter{
+  height: 800px;
+}
+.form-control {
+  padding: 5% 3%;
+  font-size: 30px;
+  border-radius: 20px;
+}
+#contacts h4 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.btn-send {
+  padding: 0.3em 2em;
+  font-size: 2.5em;
+  border-radius: 10px;
+  font-family: "BloggerSans-Medium";
+  background-color: rgb(095, 043, 056);
+}
+address {
+  font-size: 2em;
+}
+}
+@media only screen and (max-width : 1050px) {
+  .hov_mode:hover .overlay {
+  opacity: 0;
+}
+  .imgIcon {
+    width: 40%;
+  }
+.text h6 {
+    font-size: 1.5vmax;
+}
+.text p{
+  font-size: 0.9vmax;
+}
+#portfolio .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+} 
+@media only screen and (max-width : 992px) { 
+  #team {
+    background:url("img/background/2-1small.jpg") no-repeat center center;
+    background-size:cover;
+  } 
+  .nav{
+    z-index: 1;
+    background-color: #fff;
+    width: 60%;
+    position: absolute;
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    transition: transform 0.3s ease;
+  }
+  .nav.open{
+     -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  } 
+  #menu{
+    display: inline-block;
+    position: fixed;
+  }
+  #menu img{
+    height: 3em;
+    padding:  10% 0;
+  }
+
+  .logo {
+    height: 3em;
+    margin:0 60% 0 5%;
+  }
+  .nav ul {
+    display: block;
+  }
+  .navShort {
+    padding-right: 40vw;
+  }
+  #drawer ul {
+    padding-left: 3vw;
+  }
+  .nav__item{
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+    padding: 5vw 0 5vw 0;
+  }
+  nav li {
+    padding: 1.1vw 0 1.1vw 1vw;
+  }
+  #main{ 
+    margin-top: 3em;
+  }
+  .text-block {
+    padding: 0;
+  }
+  .whitish {
+    padding: 2em 1em 1em 1em;;
+  }
+  #brand-name {
+    padding-top: 0;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .header h1 {
+    padding-top: 0;
+    font-size: 12vw;
+  }
+  .header h2 {
+    font-size: 3vw;
+  }
+  .header .btn {
+    padding: 2% 5% 1% 5%;
+  }
+  h3 {
+    color: rgb(095, 043, 056);
+    font-size: 5vw;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  h4 {
+    font-size: 2vw;
+    padding-top: 2em;
+    font-weight: bold;
+  }
+  #team h4 {
+    font-size: 2vw;
+    padding-top: 1em;
+}
+  #team p {
+    font-size: 1.8vw;
+}
+#about-us .hov_mode {
+    margin: auto;
+}
+  #about-us p {
+    font-size: 1.8vw;
+    margin-left: 10%;
+    padding: 10% 5% 0 0;
+  }
+  #about-us .text {
+    width: 0;
+
+}
+.aboutVideo{
+  height: 60vh;
+  width: 90vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(095, 043, 056, 0.1);
+  cursor: pointer;
+}
+  #about-us .about-wedding {
+    width: 100%;
+  }
+  #review p {
+    font-size: 2vw;
+}
+  #contacts h4  {
+    font-size: 6vw;}
+
+
+  #brand-name {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .bigScreen {
+    display: none;
+  }
+  .smallScreen {
+  display: inline;
+  float: left;
+  margin: 0 0 0 10%;
+  }
+  .social {
+    width: 3.5em;
+    padding-right: 1em;
+    padding-top: 0;
+}
+.big-element {
+ display: none;
+}
+.small-element {
+  display: inline;
+}
+.whitish {
+  padding: 0;
+} 
+.videoYoutube {
+  width: 98%; 
+  height: 80%;
+}
+}
+
+
